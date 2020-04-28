@@ -1,0 +1,110 @@
+.user-avatar {
+  width: 60px;
+  height: 60px;
+}
+
+#sidenav {
+  transition: all .3s ease-in;
+  z-index: 1;
+}
+
+#sidenav #sidenav-menu {
+  position: sticky;
+  top: 0;
+}
+
+#sidebarToggleTop {
+  /*top: 0;*/
+  /*position: fixed;*/
+  /*z-index: 999;*/
+}
+
+.readmoni_icon {
+  width: 60%;
+  height: 60%;
+}
+
+#content-wrapper {
+  z-index: 10;
+}
+
+#page-container {
+  padding-top: 15px;
+}
+
+#accordionSidebar {
+  padding-top: 70px !important;
+}
+
+#topBar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+#pageBody {
+  padding-top: 70px;
+}
+
+.h-list {
+  display: flex;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  /*padding: 0 5px;*/
+}
+
+.h-list > * {
+  flex-shrink: 0;
+}
+
+.m-320 {
+  max-width: 320px;
+  margin: auto;
+}
+
+.place-center {
+  margin: auto;
+  margin-top: 50%;
+  transform: translateY(-50%);
+}
+
+#scroll-to-top {
+  z-index: 10;
+}
+
+.navigation-link .nav-icon {
+  width: 36px;
+}
+
+.navigation-link.active-link {
+}
+
+.navigation-link.active-link .nav-icon {
+  background-color: rgb(28,200,138);
+  border-radius: 0 10px 10px 0;
+}
+
+.navigation-link.active-link .nav-label {
+  font-weight: bolder;
+}
+
+.my-card {
+  max-width: 280px;
+  min-width: 280px;
+}
+
+.my-card.add-card {
+  padding: 0 !important;
+}
+
+.my-card.add-card .link {
+  width: 100%;
+  display: block;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

@@ -1,0 +1,15 @@
+#how-to-use-cards {
+}
+
+#how-to-use-cards .use-instruction-card {
+  margin-bottom: 10px;
+}
+
+#how-to-use-cards .use-instruction-card:nth-child(even) {
+  margin-left: auto;
+}
+
+#how-to-use-cards .use-instruction-card:nth-child(even) .row {
+  flex-direction: row-reverse;
+}
+
